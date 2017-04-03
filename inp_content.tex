@@ -8,14 +8,39 @@ Beschreibung wie Code, Hinweise, Zitate etc. formatiert werden
 \chapter{Projektmanagement}
 
 \section{Metainformationen}
+Es soll eine Applikation entwickelt werden, bei der Fragen (zu einem Thema) und zugehörigen mögliche Antworten (mit einer richtigen) erstellt werden können. Jeder Frage muss ein Standort auf der Karte zugewiesen werden. 
+Im Front-End können Fragen im Umkreis aufgelistet und gelöst werden. Für jede gelöste Frage erhöht sich der Punktestand des Benutzers.  
+
 \subsection{Team}
 Anna und Larissa 
 \subsection{Betreuer}
+Dominik Neuner
 \subsection{Partner}
 \subsection{Ansprechpartner}
 \section{Vorerhebungen}
 \subsection{Projektzieleplan}
 Projektziele-Hierarchie - SMART
+
+S - Spezifisch: 
+Ziel ist es eine App zu programmieren, Fragen pro Standort zu beantworten
+
+M - Messbar:
+Wir wollen mit Hilfe von Werbung auf unserer App Umsatz generieren. Beziehungsweise 
+unsere Angestellten bezahlen. 
+
+A - Attraktiv:
+Unser Wunsch bzw. der, der Regionen ist es sie bekannter zu machen und gerade Einheimische 
+zu motivieren die Fragen zu beantworten und gleichzeitig die damit verbundenen Standorte zu 
+besuchen. 
+
+R - Realistisch:
+Das Ziel kann mit Hilfe unserer guten Kenntnisse in HTML und CSS. Sowie die erst neu erlernten 
+Kenntnisse in PHP und Javascript sicherlich mit fast keinen Problemen umzusetzen. Ansonsten
+können wir immer noch unseren Projektbetreuer um Hilfe fragen. 
+
+T - Terminiert:
+Die App sollte bis spätestens dieses Schuljahres fertig sein. 
+
 \subsection{Projektumfeld}
 \begin{itemize}
 	\item Identifikation der Stakeholder
@@ -23,23 +48,46 @@ Projektziele-Hierarchie - SMART
 	\item Maßnahmen
 	\item Grafische Darstellung des Umfeldes
 \end{itemize}
+Aufgaben: 
+•	Fragen überlegen, zu den passenden Regionen
+•	Layout
+•	Implementierung als App
+
+
+Stakeholder:
+•	Hak Imst – Projektpartner
+•	Dominik Neuner – Projektbetreuer
+•	Projektteam 
+
+
 \subsection{Risikoanalyse}
 \begin{itemize}
 	\item Risikomatrix
 \end{itemize}
+\begin{center}
+	\includegraphics[width=0.7\linewidth]{risiko}
+\end{center}
+
+\begin{center}
+	\includegraphics[width=0.7\linewidth]{risiko2}
+\end{center}
+
+
 \section{Pflichtenheft}
 \subsection{Zielbestimmung}
 \begin{itemize}
-	\item Projektbeschreibung
-	\item IST-Zustand
-	\item SOLL-Zustand
+	\item Projektbeschreibung: Es soll eine Applikation entwickelt werden, bei der Fragen (zu einem Thema) und zugehörigen mögliche Antworten (mit einer richtigen) erstellt werden können. Jeder Frage muss ein Standort auf der Karte zugewiesen werden. 
+	Im Front-End können Fragen im Umkreis aufgelistet und gelöst werden. Für jede gelöste Frage erhöht sich der Punktestand des Benutzers.  
+	\item IST-Zustand: Planen der Umsetzung der App
+	\item SOLL-Zustand: Anfangen zu programmieren - Implementierung
 	\item NICHT-Ziele (Abgrenzungskriterien)
 \end{itemize}
+
 \subsection{Produkteinsatz und Umgebung}
 \begin{itemize}
-	\item Anwendungsgebiet
-	\item Zielgruppen
-	\item Betriebsbedingungen
+	\item Anwendungsgebiet: Stadt Imst, andere Regionen, welche mitmachen möchten
+	\item Zielgruppen: App-User -> Weiterbildung
+	\item Betriebsbedingungen: Alter ca. 14 - 50 Jahre
 	\item Hard-/Softwareumgebung
 \end{itemize}
 \subsection{Funktionalitäten}
@@ -48,11 +96,14 @@ Projektziele-Hierarchie - SMART
 	\begin{itemize}
 		\item Funktional
 		\item Nicht-funktional
+		\item App muss fragen stellen und prüfen ob die Antwort richtig ist -> richtigen Standort anzeigen
 	\end{itemize}
 	\item KANN-Anforderungen
 	\begin{itemize}
 		\item Funktional
 		\item Nicht-funktional
+		\item Kundenrezensionen 
+		\item User können eigene Fragen einbringen
 	\end{itemize}
 \end{itemize}
 \subsection{Testszenarien und Testfälle}
@@ -70,8 +121,25 @@ Projektziele-Hierarchie - SMART
 \end{itemize}
 \section{Planung}
 \subsection{Projektstrukturplan}
+\begin{center}
+	\includegraphics[width=0.7\linewidth]{projekt}
+\end{center}
+
+
 \subsection{Meilensteine}
+\begin{itemize}
+	\item Fragen überlegen
+	\item dazugehörigen Standort 
+	\item die App implementieren
+	\item Fragen von User einbinden
+\end{itemize}
+
 \subsection{Gant-Chart}
+
+\begin{center}
+	\includegraphics[width=1.0\linewidth]{gant}
+\end{center}
+
 \subsection{Abnahmekriterien}
 \subsection{Pläne zur Evaluierung}
 \subsection{Ergänzungen und zu klärende Punkte}
@@ -111,9 +179,15 @@ PHP (rekursives Akronym und Backronym für „PHP: Hypertext Preprocessor“, ur
 
 Cascading Style Sheets (englische Aussprache [kæsˌkeɪdɪŋˈstaɪlʃiːts]; für gestufte Gestaltungsbögen), kurz CSS genannt, ist eine Stylesheet-Sprache für elektronische Dokumente und zusammen mit HTML und DOM eine der Kernsprachen des World Wide Webs.
 
+Wir werden unsere im Projekt benötigte Web-App mit den oben genannten Technologien realisieren.
+Die Website basiert auf HTML Code die damit verbundenen Funktionen werden mit PHP programmiert und das Layout werden wir mit CSS umsetzen.
+
+
 
 \chapter{Problemanalyse}
 \section{USE-Case-Analyse}
+
+
 \begin{itemize}
 	\item UseCases auf Basis von Benutzerzielen identifizieren: 
 	\begin{itemize}
@@ -135,6 +209,9 @@ Cascading Style Sheets (englische Aussprache [kæsˌkeɪdɪŋˈstaɪlʃiːts]; f
 		\item System-Sequenzdiagramm (Spezialfall eines Sequenzdiagramms: Nur 1 Akteur und 1 Objekt, das Objekt ist das komplette System, es geht um die Input/Output Requirements, die abzubilden sind)
 	\end{itemize}
 \end{itemize}
+\includegraphics[width=1.5\linewidth]{GeoRequest}
+
+
 
 \section{Domain-Class-Modelling}
 \begin{itemize}
