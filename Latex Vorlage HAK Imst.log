@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.13)  3 APR 2017 11:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.13)  3 APR 2017 15:34
 entering extended mode
 **"./Latex Vorlage HAK Imst.tex"
 ("Latex Vorlage HAK Imst.tex"
@@ -1472,14 +1472,13 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 174.
 Package scrbase Info: activating ngerman \lstlistingname on input line 174.
 Package Listings Info: Made | a short reference for \lstinline on input line 17
 5.
- <Logo_Projektpartner.png, id=250, 676.5275pt x 432.61626pt>
-File: Logo_Projektpartner.png Graphic file (type png)
+ <logo.jpg, id=250, 192.72pt x 180.675pt>
+File: logo.jpg Graphic file (type jpg)
+ <use logo.jpg>
+Package pdftex.def Info: logo.jpg used on input line 178.
+(pdftex.def)             Requested size: 178.45474pt x 167.30093pt.
 
-<use Logo_Projektpartner.png>
-Package pdftex.def Info: Logo_Projektpartner.png used on input line 178.
-(pdftex.def)             Requested size: 133.47594pt x 85.35826pt.
-
-<Logo_HAK_Imst.png, id=252, 162.3666pt x 103.8279pt>
+<Logo_HAK_Imst.png, id=251, 162.3666pt x 103.8279pt>
 File: Logo_HAK_Imst.png Graphic file (type png)
  <use Logo_HAK_Imst.png>
 Package pdftex.def Info: Logo_HAK_Imst.png used on input line 178.
@@ -1547,8 +1546,8 @@ Package babel Info: Redefining ngerman shorthand "~
 
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./Logo_Projektpartner.png
-> <./Logo_HAK_Imst.png>] (inp_posttitle.tex
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo.jpg> <./Logo_HAK_I
+mst.png>] (inp_posttitle.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 17.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1742,7 +1741,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 63.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 63.
- <risiko.png, id=386, 351.11176pt x 338.4645pt>
+ <risiko.png, id=385, 351.11176pt x 338.4645pt>
 File: risiko.png Graphic file (type png)
  <use risiko.png>
 Package pdftex.def Info: risiko.png used on input line 68.
@@ -1756,7 +1755,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 69.
 
-[14] <risiko2.png, id=391, 369.7815pt x 255.95625pt>
+[14] <risiko2.png, id=390, 369.7815pt x 255.95625pt>
 File: risiko2.png Graphic file (type png)
  <use risiko2.png>
 Package pdftex.def Info: risiko2.png used on input line 72.
@@ -1817,7 +1816,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 123.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 123.
- <projekt.png, id=402, 460.72125pt x 443.256pt>
+ <projekt.png, id=401, 460.72125pt x 443.256pt>
 File: projekt.png Graphic file (type png)
  <use projekt.png>
 Package pdftex.def Info: projekt.png used on input line 125.
@@ -1840,7 +1839,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 137.
 
-<gant.png, id=407, 550.4565pt x 101.178pt>
+<gant.png, id=406, 550.4565pt x 101.178pt>
 File: gant.png Graphic file (type png)
  <use gant.png>
 Package pdftex.def Info: gant.png used on input line 140.
@@ -2043,7 +2042,7 @@ Overfull \hbox (3.70793pt too wide) in paragraph at lines 209--210
 mms: Nur
  []
 
-<GeoRequest.png, id=431, 911.8065pt x 401.70074pt>
+<GeoRequest.png, id=430, 911.8065pt x 401.70074pt>
 File: GeoRequest.png Graphic file (type png)
  <use GeoRequest.png>
 Package pdftex.def Info: GeoRequest.png used on input line 212.
@@ -2323,7 +2322,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 25.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 25.
- <figures/Arduino_Example.jpg, id=518, 5203.44pt x 3468.96pt>
+ <figures/Arduino_Example.jpg, id=517, 5203.44pt x 3468.96pt>
 File: figures/Arduino_Example.jpg Graphic file (type jpg)
 
 <use figures/Arduino_Example.jpg>
@@ -2344,7 +2343,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 39.
 
-<figures/shift_reg.png, id=520, 234.1247pt x 277.78781pt>
+<figures/shift_reg.png, id=519, 234.1247pt x 277.78781pt>
 <use figures/shift_reg.png> <use figures/shift_reg.png>
 <use figures/shift_reg.png>
 File: figures/shift_reg.png Graphic file (type png)
@@ -2783,7 +2782,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 199.
  ) 
 Here is how much of TeX's memory you used:
  26484 strings out of 493333
- 477806 string characters out of 3139197
+ 477731 string characters out of 3139197
  701789 words of memory out of 3000000
  29300 multiletter control sequences out of 15000+200000
  82877 words of font info for 62 fonts, out of 3000000 for 9000
@@ -2804,9 +2803,9 @@ s/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 lm/lmtt12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
 
-Output written on "Latex Vorlage HAK Imst.pdf" (51 pages, 5610698 bytes).
+Output written on "Latex Vorlage HAK Imst.pdf" (51 pages, 5664129 bytes).
 PDF statistics:
- 769 PDF objects out of 1000 (max. 8388607)
+ 768 PDF objects out of 1000 (max. 8388607)
  202 named destinations out of 1000 (max. 500000)
  546 words of extra memory for PDF output out of 10000 (max. 10000000)
 
